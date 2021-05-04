@@ -1,76 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adalab Web Starter Kit</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" href="./assets/images/favicon.png" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Adalab Web Starter Kit</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/styles.css" />
-  <link rel="icon" href="./assets/images/favicon.png" />
-</head>
-
-<body>
-  
-  <main>
-    <section>
-      <button><img src="#" />Reset</button>
-      <div>
-        <h2>Nombre Apellido</h2>
-        <h3>Front-end developer</h3>
-        <img src="#" />
-        <div>Mobile icon</div>
-        <div>Email icon</div>
-        <div>Linkedin icon</div>
-        <div>GitHub icon</div>
-      </div>
+  <body>
+    <header class="header-container">
+        <img class="main-logo" src="../assets/images/logo-awesome-profile-cards.svg">
+        <section class="main-section-1">
+            <h1 class="title">Crea tu tarjeta de visita</h1>
+            <p class="subtitle">Crea mejores contactos profesionales de forma fácil y cómoda</p>
+        </section>
+        <section class="main-section-2">
+            <i class="far fa-object-ungroup">diseña</i>
+            <i class="far fa-keyboard">rellena</i>
+            <i class="fas fa-share-alt">comparte</i>
+        </section>
+        <div class="boton">
+            <a class="boton-link" href="./content.html" title="start">comenzar</a>
+        </div>
+    </header>
+    <section class="maincontainer1">
+      <section class="maincontainer1__profilecard">
+        <p class="maincontainer1__text">
+            <h2 class="maincontainer1__title"></h2>
+            <h3 class="maincontainer1__subtitle"></h3>
+        </p>
+        <img src="" alt="" />
+        <nav class="maincontainer1__links">
+          <a href="" class="maincontainer1__links"></a>
+          <a href="" class="maincontainer1__links"></a>
+          <a href="" class="maincontainer1__links"></a>
+          <a href="" class="maincontainer1__links"></a>
+        </nav>
+      </section>
     </section>
-    <section>
-      <div class="design">
-        <h2>DISEÑA</h2>
-        <h3>COLORES</h3>
-        <div>paleta</di>
-          <div>paleta </div>
-          <div>paleta</div>
+
+    <main>
+      <section>
+        <button><img src="#" />Reset</button>
+        <div>
+          <h2>Nombre Apellido</h2>
+          <h3>Front-end developer</h3>
+          <img src="#" />
+          <div>Mobile icon</div>
+          <div>Email icon</div>
+          <div>Linkedin icon</div>
+          <div>GitHub icon</div>
         </div>
-        <hr>
-        <div class="details">
-          <h2>RELLENA</h2>
-          <label for="full-name">Nombre completo</label>
-          <input type="text" title="full-name" placeholder="Ej: Sally Hill">
-          <label for="work-title">Puesto</label>
-          <input type="text" title="work-title" placeholder="Ej: Front-end unicorn">
-          <label for="photo">Imagen de perfil</label>
-          <input type="text" title="photo" placeholder="#">
-          <button>Añadir imagen</button>
-          <label for="email">Email</label>
-          <input type="text" title="email" placeholder="Ej: Sally-hill@gmail.com">
-          <label for="phone">Teléfono</label>
-          <input type="text" title="phone" placeholder="Ej: 555-55-55-55">
-          <label for="linkedin">Linkedin</label>
-          <input type="text" title="linkedin" placeholder="Ej: linkedin.com/in/sally.hill">
-          <label for="github">Github</label>
-          <input type="text" title="github" placeholder="Ej: @sally-hill">
-        </div>
-        <hr>
-        <div class="preview">
-          <h2>COMPARTE</h2>
-          <button> CREAR TARJETA </button>
-          <div>
-            <p> La tarjeta ha sido creada:</p>
-            <a href="#" class="js-url">url</a>
-            <button> Compartir en twitter</button>
+      </section>
+      <section>
+        <div class="design">
+          <h2>DISEÑA</h2>
+          <h3>COLORES</h3>
+          <div>paleta</di>
+            <div>paleta </div>
+            <div>paleta</div>
           </div>
-        </div>
-    </section>
-  </main>
-  <footer class="footer">
-      <img src="./assets/images/logo-adalab.png" alt="logo logo-adalab" />
+          <hr>
+          <div class="details">
+            <h2>RELLENA</h2>
+            <label for="full-name">Nombre completo</label>
+            <input type="text" title="full-name" placeholder="Ej: Sally Hill">
+            <label for="work-title">Puesto</label>
+            <input type="text" title="work-title" placeholder="Ej: Front-end unicorn">
+            <label for="photo">Imagen de perfil</label>
+            <input type="text" title="photo" placeholder="#">
+            <button>Añadir imagen</button>
+            <label for="email">Email</label>
+            <input type="text" title="email" placeholder="Ej: Sally-hill@gmail.com">
+            <label for="phone">Teléfono</label>
+            <input type="text" title="phone" placeholder="Ej: 555-55-55-55">
+            <label for="linkedin">Linkedin</label>
+            <input type="text" title="linkedin" placeholder="Ej: linkedin.com/in/sally.hill">
+            <label for="github">Github</label>
+            <input type="text" title="github" placeholder="Ej: @sally-hill">
+          </div>
+          <hr>
+          <div class="preview">
+            <h2>COMPARTE</h2>
+            <button> CREAR TARJETA </button>
+            <div>
+              <p> La tarjeta ha sido creada:</p>
+              <a href="#" class="js-url">url</a>
+              <button> Compartir en twitter</button>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+        <small class="copy "> Awesome profile cards @ 2021 </small>
+        <img class="logo-adalab" src="./assets/images/logo-adalab.png" alt="logo logo-adalab" />
 
+    </footer>
 
-  </footer>
-
-  <!-- <script src="./assets/js/main.js"></script> -->
-</body>
-
+    <!-- <script src="./assets/js/main.js"></script> -->
+  </body>
 </html>
