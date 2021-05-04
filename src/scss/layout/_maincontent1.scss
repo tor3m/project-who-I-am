@@ -1,0 +1,10 @@
+.maincontainer1 {
+  background: linear-gradient(
+    to bottom,
+    var(--bfcdd-0-silver),
+    var(--pale-grey)
+  );
+  &__text {
+    border-left: 5px #438792;
+  }
+}
