@@ -1,13 +1,11 @@
 .maincontainer1 {
   background: linear-gradient(to bottom, #bfcdd0, #dde9ed);
   height: 457px;
-  padding-top: 88px;
+
   &__button {
     background: none;
-    color: inherit;
     border: 1px solid white;
     border-radius: 22.5px;
-    padding: 0;
     font: inherit;
     cursor: pointer;
     outline: inherit;
@@ -18,12 +16,22 @@
     font-family: $font-main;
     color: $color-base;
     font-size: 12px;
+    margin-left: calc(50% - 120px);
+    margin-top: 38px;
+    margin-bottom: 23px;
   }
+  .fa-trash-alt {
+    color: $color-base;
+  }
+
   &__profilecard {
     border: 1px $color-base solid;
     margin-left: calc(50% - 120px);
     margin-right: calc(50% - 120px);
     padding-top: 21px;
+    height: 329px;
+    background-color: $color-white;
+    box-shadow: 0 1px 10px 0 black, 0 1px 3px 0 rgba(0, 0, 0, 0.35);
   }
   &__text {
     width: 240px;
@@ -48,5 +56,32 @@
     width: 240px;
     border: black solid 1px;
     margin-top: 10px;
+  }
+  &__links-container {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 17px;
+
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__links {
+    border: solid 2px $color-hospitalgreen;
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    margin: 0 10px 0 0;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: $color-green;
+  }
+  .fa-mobile-alt {
+    color: $color-green;
+  }
+  .fa-envelope {
+    color: $color-green;
   }
 }
