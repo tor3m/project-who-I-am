@@ -1,19 +1,24 @@
-<main>
-  <section > 
-      <div class="details">
-        <span class="detail__icon"><i class="far fa-keyboard"></i></span>
+<main class="main">
+  <form class="form" action="#">
+    <fieldset class="details">
+      <legend class="details__icon">
+        <i class="far fa-keyboard"></i>
         <h2 class="details__title">RELLENA</h2>
-        
+      </legend>
+
+      <div class="details__form">
         <label class="details__fullName-form" for="fullName">Nombre completo</label>
         <input class="details__fullName-fieldSpace" type="text" title="fullName" placeholder="Ej: Sally Hill">
 
-        <label class="details__workTitle-form" 
-        for="workTitle">Puesto</label>
+        <label class="details__workTitle-form" for="workTitle">Puesto</label>
         <input class="details__workTitle-fieldSpace" type="text" title="workTitle" placeholder="Ej: Front-end unicorn">
 
         <label class="details__photo-form" for="photo">Imagen de perfil</label>
-        <input class="details__photo-preview" type="text" title="photo" placeholder="#">
-        <button class="details__photo-button">Añadir imagen</button>
+        <input class="details__photo-preview" type="text" title="photo" placeholder="photo-view">
+  
+        <div>
+          <input class="details__photo-button" type="submit" value="Añadir imagen">
+        </div>
 
         <label class="details__email-form" for="email">Email</label>
         <input class="details__email-fieldSpace" type="text" title="email" placeholder="Ej: Sally-hill@gmail.com">
@@ -22,20 +27,30 @@
         <input class="details__phone-fieldSpace" type="text" title="phone" placeholder="Ej: 555-55-55-55">
 
         <label class="details__linkedin-form" for="linkedin">Linkedin</label>
-        <input class="details__linkedin-fieldSpace" type="text" title="linkedin" placeholder="Ej: linkedin.com/in/sally.hill">
+        <input class="details__linkedin-fieldSpace" type="text" title="linkedin"
+          placeholder="Ej: linkedin.com/in/sally.hill">
         <label class="details__github-form" for="github">Github</label>
         <input class="details__github-fieldSpace" type="text" title="github" placeholder="Ej: @sally-hill">
       </div>
-      <hr>
-      <div class="share">
-        <span class="share__icon"><i class="fas fa-share-alt"></i></span>
+    </fieldset>
+    <fieldset>
+      <legend class="share">
+        <i class="fas fa-share-alt"></i>
         <h2 class="share__title">COMPARTE</h2>
-        <button class="share__create-button"> CREAR TARJETA </button>
-        <div>
-          <p class="preview__paragraph"> La tarjeta ha sido creada:</p>
-          <a class="preview__url" href="#" >url</a>
-          <button class="preview__button"> Compartir en twitter</button>
-        </div>
+      </legend>
+      <div class="share__button">
+        <input class="share__create-button" type="submit" value="CREAR TARJETA">
       </div>
-  </section>
+    </fieldset>
+  </form>
+
+  <section class="preview">
+    <div class="preview__card">
+      <p class="preview__paragraph">
+        La tarjeta ha sido creada:</p>
+      <a class="preview__url" href="#">https</a>
+    </div>
+    <div class="button-twitter">
+      <i class="fab fa-twitter"> <input class="preview__button" type="submit" value="Compartir en twitter"></i>
+    </div>
 </main>
