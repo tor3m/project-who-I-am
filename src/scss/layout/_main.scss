@@ -1,4 +1,5 @@
 .main-section {
+  height: 100vw;
   background-color: $background-main;
   margin-top: 0px;
   display: flex;
@@ -29,9 +30,25 @@
   padding: 15px 20px 9.8px 20px;
   border: solid 1.6px $color-orange;
   border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+  color: $color-orange;
 }
 .far {
-  color: $color-orange;
+  width: 32px;
+  height: 26px;
+}
+.fas {
+  width: 32px;
+  height: 26px;
+}
+.i-text {
+  margin-top: -8px;
+  color: $color-base;
+  text-transform: capitalize;
+  font-size: 15px;
 }
 .boton {
   margin-top: 38.6px;
