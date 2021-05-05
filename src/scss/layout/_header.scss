@@ -2,10 +2,17 @@
   background-color: $background-main;
   height: 158px;
   text-align: center;
+  @media all and (min-width: 768px) {
+    height: 455px;
+  }
 }
 .main-logo {
-  margin-top: 95px;
   width: 250px;
   height: 63px;
   margin: 95px 35px 0px 35px;
+  @media all and (min-width: 768px) {
+    width: 419px;
+    height: 105px;
+    margin: 350px 174px 0px 174px;
+  }
 }
