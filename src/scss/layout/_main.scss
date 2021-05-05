@@ -8,7 +8,7 @@
 
 .title {
   margin-top: 35.4px;
-  font-family: "Merriweather";
+  font-family: $font-title;
   color: $color-orange;
   font-weight: 900;
   font-size: 22px;
@@ -16,7 +16,7 @@
 }
 .subtitle {
   width: 264.8px;
-  font-family: "OpenSans";
+  font-family: $font-main;
   text-align: center;
   font-size: 15px;
   color: $color-green;
@@ -45,7 +45,7 @@
   line-height: 2.5;
 }
 .boton-link {
-  font-family: "OpenSans";
+  font-family: $font-main;
   color: $color-white;
   text-decoration: none;
 }
