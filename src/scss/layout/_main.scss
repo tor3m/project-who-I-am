@@ -1,10 +1,13 @@
 .main-section {
-  height: 100vw;
+  height: 300px;
   background-color: $background-main;
   margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media all and (min-width: 768px) {
+    height: 508px;
+  }
 }
 
 .title {
@@ -14,6 +17,10 @@
   font-weight: 900;
   font-size: 22px;
   text-align: center;
+  @media all and (min-width: 768px) {
+    margin-top: 31px;
+    font-size: 26px;
+  }
 }
 .subtitle {
   width: 264.8px;
@@ -22,6 +29,10 @@
   font-size: 15px;
   color: $color-green;
   text-align: center;
+  @media all and (min-width: 768px) {
+    width: 331px;
+    font-size: 16px;
+  }
 }
 .main-section-2 {
   width: 268px;
@@ -35,20 +46,34 @@
   grid-template-rows: 1fr;
   text-align: center;
   color: $color-orange;
+  @media all and (min-width: 768px) {
+    width: 325px;
+  }
 }
 .far {
   width: 32px;
   height: 26px;
+  @media all and (min-width: 768px) {
+    width: 35px;
+    height: 29px;
+  }
 }
 .fas {
   width: 32px;
   height: 26px;
+  @media all and (min-width: 768px) {
+    width: 35px;
+    height: 29px;
+  }
 }
 .i-text {
   margin-top: -8px;
   color: $color-base;
   text-transform: capitalize;
   font-size: 15px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 .boton {
   margin-top: 38.6px;
@@ -60,6 +85,9 @@
   text-transform: uppercase;
   border-radius: 21px;
   line-height: 2.5;
+  @media all and (min-width: 768px) {
+    margin-top: 218px;
+  }
 }
 .boton-link {
   font-family: $font-main;
