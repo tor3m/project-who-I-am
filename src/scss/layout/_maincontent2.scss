@@ -1,7 +1,10 @@
 main {
   display: grid;
   grid-template-columns: 1fr;
-   margin: 0;
+}
+
+fieldset {
+  border: none;
 }
 
 .details__icon {
@@ -13,6 +16,10 @@ main {
 .details__form {
   display: flex;
   flex-direction: column;
+}
+
+.details__photo-preview {
+  border: solid 1px $color-hospitalgreen;
 }
 
 .details__title {
@@ -37,7 +44,7 @@ main {
 }
 
 .details__fullName-fieldSpace {
-  box-shadow: $color-hospitalgreen;
+  border: solid 1px $color-hospitalgreen;
   height: 55px;
 }
 
@@ -49,7 +56,7 @@ main {
 }
 
 .details__workTitle-fieldSpace {
-  box-shadow: $color-hospitalgreen;
+  border: solid 1px $color-hospitalgreen;
   height: 55px;
 }
 
@@ -80,7 +87,7 @@ main {
 }
 
 .details__email-fieldSpace {
-  box-shadow: $color-hospitalgreen;
+  border: solid 1px $color-hospitalgreen;
   height: 55px;
 }
 
@@ -92,7 +99,7 @@ main {
 }
 
 .details__phone-fieldSpace {
-  box-shadow: $color-hospitalgreen;
+  border: solid 1px $color-hospitalgreen;
   height: 55px;
 }
 
@@ -104,7 +111,7 @@ main {
 }
 
 .details__linkedin-fieldSpace {
-  box-shadow: $color-hospitalgreen;
+  border: solid 1px $color-hospitalgreen;
   height: 55px;
 }
 
@@ -116,7 +123,7 @@ main {
 }
 
 .details__github-fieldSpace {
-  box-shadow: $color-hospitalgreen;
+  border: solid 1px $color-hospitalgreen;
   height: 55px;
 }
 
