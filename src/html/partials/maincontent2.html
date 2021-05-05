@@ -1,51 +1,40 @@
 <main>
-  <section>
-    <button><img src="#" />Reset</button>
-    <div>
-      <h2>Nombre Apellido</h2>
-      <h3>Front-end developer</h3>
-      <img src="#" />
-      <div>Mobile icon</div>
-      <div>Email icon</div>
-      <div>Linkedin icon</div>
-      <div>GitHub icon</div>
-    </div>
-  </section>
-  <section>
-    <div class="design">
-      <h2>DISEÑA</h2>
-      <h3>COLORES</h3>
-      <div>paleta</di>
-        <div>paleta </div>
-        <div>paleta</div>
-      </div>
-      <hr>
+  <section > 
       <div class="details">
-        <h2>RELLENA</h2>
-        <label for="full-name">Nombre completo</label>
-        <input type="text" title="full-name" placeholder="Ej: Sally Hill">
-        <label for="work-title">Puesto</label>
-        <input type="text" title="work-title" placeholder="Ej: Front-end unicorn">
-        <label for="photo">Imagen de perfil</label>
-        <input type="text" title="photo" placeholder="#">
-        <button>Añadir imagen</button>
-        <label for="email">Email</label>
-        <input type="text" title="email" placeholder="Ej: Sally-hill@gmail.com">
-        <label for="phone">Teléfono</label>
-        <input type="text" title="phone" placeholder="Ej: 555-55-55-55">
-        <label for="linkedin">Linkedin</label>
-        <input type="text" title="linkedin" placeholder="Ej: linkedin.com/in/sally.hill">
-        <label for="github">Github</label>
-        <input type="text" title="github" placeholder="Ej: @sally-hill">
+        <span class="detail__icon"><i class="far fa-keyboard"></i></span>
+        <h2 class="details__title">RELLENA</h2>
+        
+        <label class="details__fullName-form" for="fullName">Nombre completo</label>
+        <input class="details__fullName-fieldSpace" type="text" title="fullName" placeholder="Ej: Sally Hill">
+
+        <label class="details__workTitle-form" 
+        for="workTitle">Puesto</label>
+        <input class="details__workTitle-fieldSpace" type="text" title="workTitle" placeholder="Ej: Front-end unicorn">
+
+        <label class="details__photo-form" for="photo">Imagen de perfil</label>
+        <input class="details__photo-preview" type="text" title="photo" placeholder="#">
+        <button class="details__photo-button">Añadir imagen</button>
+
+        <label class="details__email-form" for="email">Email</label>
+        <input class="details__email-fieldSpace" type="text" title="email" placeholder="Ej: Sally-hill@gmail.com">
+
+        <label class="details__phone-form" for="phone">Teléfono</label>
+        <input class="details__phone-fieldSpace" type="text" title="phone" placeholder="Ej: 555-55-55-55">
+
+        <label class="details__linkedin-form" for="linkedin">Linkedin</label>
+        <input class="details__linkedin-fieldSpace" type="text" title="linkedin" placeholder="Ej: linkedin.com/in/sally.hill">
+        <label class="details__github-form" for="github">Github</label>
+        <input class="details__github-fieldSpace" type="text" title="github" placeholder="Ej: @sally-hill">
       </div>
       <hr>
-      <div class="preview">
-        <h2>COMPARTE</h2>
-        <button> CREAR TARJETA </button>
+      <div class="share">
+        <span class="share__icon"><i class="fas fa-share-alt"></i></span>
+        <h2 class="share__title">COMPARTE</h2>
+        <button class="share__create-button"> CREAR TARJETA </button>
         <div>
-          <p> La tarjeta ha sido creada:</p>
-          <a href="#" class="js-url">url</a>
-          <button> Compartir en twitter</button>
+          <p class="preview__paragraph"> La tarjeta ha sido creada:</p>
+          <a class="preview__url" href="#" >url</a>
+          <button class="preview__button"> Compartir en twitter</button>
         </div>
       </div>
   </section>
