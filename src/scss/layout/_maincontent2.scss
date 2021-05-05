@@ -1,3 +1,67 @@
+.opt1color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.opt2color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.opt3color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.opt1-1 {
+  background-color: crimson;
+  width: 30px;
+}
+.opt1-2 {
+  background-color: blue;
+  width: 30px;
+}
+.opt1-3 {
+  background-color: yellow;
+  width: 30px;
+}
+
+.opt2-1 {
+  background-color: crimson;
+  width: 30px;
+}
+.opt2-2 {
+  background-color: blue;
+  width: 30px;
+}
+.opt2-3 {
+  background-color: pink;
+  width: 30px;
+}
+
+.opt3-1 {
+  background-color: crimson;
+  width: 30px;
+}
+.opt3-2 {
+  background-color: blue;
+  width: 30px;
+}
+.opt3-3 {
+  background-color: pink;
+  width: 30px;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -21,7 +85,6 @@ fieldset {
 .details__photo-preview {
   border: solid 1px $color-hospitalgreen;
 }
-
 .details__title {
   font-family: $font-main;
   font-size: $sizedespleg;
@@ -34,6 +97,8 @@ fieldset {
 
 .far {
   color: $color-orange;
+  text-transform: uppercase; /*para añadir*/
+  font-size: $sizedespleg; /*para añadir*/
 }
 
 .details__fullName-form {
