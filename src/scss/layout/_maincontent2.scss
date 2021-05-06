@@ -65,16 +65,36 @@
 main {
   display: grid;
   grid-template-columns: 1fr;
+  box-sizing: border-box;
+}
+.form{
+  margin-top: 27px;
 }
 
 fieldset {
   border: none;
+  margin-right: 19px;
+  margin-left: 20px;
 }
 
 .details__icon {
+  border-top: solid 1px $color-copy;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.up {
+  color:$color-base;
+ 
+}
+
+.down {
+  color:$color-base;
+  
 }
 
 .details__form {
@@ -92,10 +112,10 @@ fieldset {
   font-weight: 600;
   padding-top: 10px;
   padding-left: 10px;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-.far {
+.keyboard {
   color: $color-orange;
   text-transform: uppercase; /*para añadir*/
   font-size: $sizedespleg; /*para añadir*/
@@ -106,11 +126,14 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
+  margin-bottom: 7px;
+ 
 }
 
 .details__fullName-fieldSpace {
   border: solid 1px $color-hospitalgreen;
-  height: 55px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 
 .details__workTitle-form {
@@ -118,11 +141,13 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
+ margin-bottom: 7px;
 }
 
 .details__workTitle-fieldSpace {
   border: solid 1px $color-hospitalgreen;
-  height: 55px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 
 .details__photo-form {
@@ -130,6 +155,7 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
+  margin-bottom: 7px;
 }
 
 .details__photo-button {
@@ -142,6 +168,7 @@ fieldset {
   height: 30px;
   padding: 3px 22px 7px;
   box-shadow: rgba(0, 0, 0, 0.32);
+  margin-bottom: 20px;
 }
 
 .details__email-form {
@@ -149,11 +176,13 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
+  margin-bottom: 7px;
 }
 
 .details__email-fieldSpace {
   border: solid 1px $color-hospitalgreen;
-  height: 55px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 
 .details__phone-form {
@@ -161,11 +190,13 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
+  margin-bottom: 7px;
 }
 
 .details__phone-fieldSpace {
   border: solid 1px $color-hospitalgreen;
-  height: 55px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 
 .details__linkedin-form {
@@ -173,11 +204,14 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
+  margin-bottom: 7px;
 }
 
 .details__linkedin-fieldSpace {
   border: solid 1px $color-hospitalgreen;
-  height: 55px;
+  height: 30px;
+  margin-bottom: 20px;
+
 }
 
 .details__github-form {
@@ -185,14 +219,16 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
+  margin-bottom: 7px;
 }
 
 .details__github-fieldSpace {
   border: solid 1px $color-hospitalgreen;
-  height: 55px;
+  height: 30px;
+  margin-bottom: 30px;
 }
 
-.fas {
+.send {
   color: $color-orange;
 }
 
@@ -225,6 +261,8 @@ fieldset {
   height: 24px;
   box-shadow: $color-shadow;
   height: 50px;
+  margin-top:30px;
+  margin-bottom: 30px;
 }
 
 .preview {
@@ -239,6 +277,8 @@ fieldset {
   font-family: $font-main;
   font-size: $sizedespleg;
   font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .preview__button {
@@ -259,8 +299,9 @@ fieldset {
   font-weight: 600;
   color: $color-orange;
   box-shadow: $color-shadow;
+  margin-bottom: 10px;
 }
 
-.fab {
-  color: $color-azure;
+.twitter {
+  color: $color-white;
 }
