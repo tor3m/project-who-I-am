@@ -1,43 +1,28 @@
-.colors_choose {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr, 1fr;
+.colors_design {
+  display: flex;
+  justify-content: space-between;
 }
-.choosecolor1 {
+
+.choosecolor {
   width: 17px;
   height: 17px;
   border-radius: 17px;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  justify-self: end;
-  margin-right: 150px;
+  margin-right: 10px;
 }
-.choosecolor2 {
-  width: 17px;
-  height: 17px;
-  border-radius: 17px;
-  grid-column: 2/3;
-  justify-self: end;
-  margin-right: 150px;
-}
-.choosecolor3 {
-  width: 17px;
-  height: 17px;
-  border-radius: 17px;
-  grid-column: 2/3;
-  justify-self: end;
-  margin-right: 150px;
-  
-}
+
 .palette {
   margin-right: 20px;
   margin-top: 0px;
-  grid-column: 2/2;
-  grid-row: 2/2;
-  justify-self: end;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
-
+.colorstitle {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 39px;
+}
 .opt1color {
   width: 90px;
   height: 25px;
