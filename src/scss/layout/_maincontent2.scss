@@ -24,41 +24,41 @@
 }
 
 .opt1-1 {
-  background-color: #114e4e;
+  background-color: $color1-1;
   width: 30px;
 }
 .opt1-2 {
-  background-color: blue;
+  background-color: $color1-2;
   width: 30px;
 }
 .opt1-3 {
-  background-color: yellow;
+  background-color: $color1-3;
   width: 30px;
 }
 
 .opt2-1 {
-  background-color: crimson;
+  background-color: $color2-1;
   width: 30px;
 }
 .opt2-2 {
-  background-color: #eab052;
+  background-color: $color2-2;
   width: 30px;
 }
 .opt2-3 {
-  background-color: pink;
+  background-color: $color2-3;
   width: 30px;
 }
 
 .opt3-1 {
-  background-color: #a0c0cf;
+  background-color: $color3-1;
   width: 30px;
 }
 .opt3-2 {
-  background-color: blue;
+  background-color: $color3-2;
   width: 30px;
 }
 .opt3-3 {
-  background-color: pink;
+  background-color: $color3-3;
   width: 30px;
 }
 
@@ -67,7 +67,7 @@ main {
   grid-template-columns: 1fr;
   box-sizing: border-box;
 }
-.form{
+.form {
   margin-top: 27px;
 }
 
@@ -88,13 +88,11 @@ fieldset {
 }
 
 .up {
-  color:$color-base;
- 
+  color: $color-base;
 }
 
 .down {
-  color:$color-base;
-  
+  color: $color-base;
 }
 
 .details__form {
@@ -127,7 +125,6 @@ fieldset {
   line-height: 1.43;
   color: $color-green;
   margin-bottom: 7px;
- 
 }
 
 .details__fullName-fieldSpace {
@@ -141,7 +138,7 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
- margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .details__workTitle-fieldSpace {
@@ -211,7 +208,6 @@ fieldset {
   border: solid 1px $color-hospitalgreen;
   height: 30px;
   margin-bottom: 20px;
-
 }
 
 .details__github-form {
@@ -261,7 +257,7 @@ fieldset {
   height: 24px;
   box-shadow: $color-shadow;
   height: 50px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
