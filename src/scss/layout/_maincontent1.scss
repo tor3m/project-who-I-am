@@ -85,3 +85,18 @@
     color: $color-green;
   }
 }
+@media (min-width: 720px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
+  }
+  .maincontainer1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .form {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
