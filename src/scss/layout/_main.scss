@@ -1,5 +1,5 @@
 .main-section {
-  height: 300px;
+  height: 60vh;
   background-color: $background-main;
   margin-top: 0px;
   display: flex;
@@ -50,15 +50,7 @@
     width: 325px;
   }
 }
-.far {
-  width: 32px;
-  height: 26px;
-  @media all and (min-width: 768px) {
-    width: 35px;
-    height: 29px;
-  }
-}
-.fas {
+.i-main {
   width: 32px;
   height: 26px;
   @media all and (min-width: 768px) {
