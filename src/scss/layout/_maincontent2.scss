@@ -1,10 +1,51 @@
+.colors_choose {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr, 1fr;
+}
+.choosecolor1 {
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: end;
+  margin-right: 150px;
+}
+.choosecolor2 {
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  grid-column: 2/3;
+  justify-self: end;
+  margin-right: 150px;
+}
+.choosecolor3 {
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  grid-column: 2/3;
+  justify-self: end;
+  margin-right: 150px;
+  
+}
+.palette {
+  margin-right: 20px;
+  margin-top: 0px;
+  grid-column: 2/2;
+  grid-row: 2/2;
+  justify-self: end;
+ 
+}
+
 .opt1color {
   width: 90px;
   height: 25px;
   border: solid 1px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  border: thin;
 }
 .opt2color {
   width: 90px;
@@ -12,7 +53,8 @@
   border: solid 1px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  border: thin;
 }
 .opt3color {
   width: 90px;
@@ -20,7 +62,8 @@
   border: solid 1px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  border: thin;
 }
 
 .opt1-1 {
