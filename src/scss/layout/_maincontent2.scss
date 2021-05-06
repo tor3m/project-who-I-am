@@ -3,9 +3,114 @@ main {
   grid-template-columns: 1fr;
   box-sizing: border-box;
 }
-.form{
+
+.form {
   margin-top: 27px;
 }
+
+.colors_design {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choosecolor {
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  margin-right: 10px;
+}
+
+.palette {
+  margin-right: 20px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.colorstitle {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 39px;
+}
+
+.opt1color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: thin;
+}
+
+.opt2color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: thin;
+}
+
+.opt3color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: thin;
+}
+
+.opt1-1 {
+  background-color: $color1-1;
+  width: 30px;
+}
+
+.opt1-2 {
+  background-color: $color1-2;
+  width: 30px;
+}
+
+.opt1-3 {
+  background-color: $color1-3;
+  width: 30px;
+}
+
+.opt2-1 {
+  background-color: $color2-1;
+  width: 30px;
+}
+
+.opt2-2 {
+  background-color: $color2-2;
+  width: 30px;
+}
+
+.opt2-3 {
+  background-color: $color2-3;
+  width: 30px;
+}
+
+.opt3-1 {
+  background-color: $color3-1;
+  width: 30px;
+}
+
+.opt3-2 {
+  background-color: $color3-2;
+  width: 30px;
+}
+
+.opt3-3 {
+  background-color: $color3-3;
+  width: 30px;
+}
+
+// PARTE MARIBEL
 
 fieldset {
   border: none;
@@ -13,7 +118,7 @@ fieldset {
   margin-left: 20px;
 }
 
-.details__icon {
+.details__line {
   border-top: solid 1px $color-copy;
   width: 100%;
   display: flex;
@@ -23,14 +128,12 @@ fieldset {
   margin-bottom: 25px;
 }
 
-.up {
-  color:$color-base;
- 
+.details--up {
+  color: $color-base;
 }
 
-.down {
-  color:$color-base;
-  
+.details--down {
+  color: $color-base;
 }
 
 .details__form {
@@ -40,6 +143,10 @@ fieldset {
 
 .details__photo-preview {
   border: solid 1px $color-hospitalgreen;
+}
+
+.details__keyboard {
+  color: $color-orange;
 }
 
 .details__title {
@@ -52,17 +159,12 @@ fieldset {
   margin-bottom: 25px;
 }
 
-.keyboard {
-  color: $color-orange;
-}
-
 .details__fullName-form {
   font-family: $font-main;
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
   margin-bottom: 7px;
- 
 }
 
 .details__fullName-fieldSpace {
@@ -76,7 +178,7 @@ fieldset {
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
- margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .details__workTitle-fieldSpace {
@@ -101,7 +203,7 @@ fieldset {
   background-color: $color-orange;
   border-radius: 3px;
   height: 30px;
-  padding: 3px 22px 7px;
+  padding: 3px 22px 7px 22px;
   box-shadow: rgba(0, 0, 0, 0.32);
   margin-bottom: 20px;
 }
@@ -146,7 +248,6 @@ fieldset {
   border: solid 1px $color-hospitalgreen;
   height: 30px;
   margin-bottom: 20px;
-
 }
 
 .details__github-form {
@@ -163,13 +264,15 @@ fieldset {
   margin-bottom: 30px;
 }
 
-.send {
-  color: $color-orange;
-}
-
-.share {
+.share__line {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.share--send {
+  color: $color-orange;
 }
 
 .share__title {
@@ -179,14 +282,22 @@ fieldset {
   font-weight: 600;
 }
 
-.share__button {
+.share--up {
+  color: $color-base;
+}
+
+.share--down {
+  color: $color-base;
+}
+
+.share__create-button {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.share__create-button {
+.share__create-button-go {
   font-family: $font-main;
   font-size: $sizedespleg;
   font-weight: 600;
@@ -196,11 +307,12 @@ fieldset {
   height: 24px;
   box-shadow: $color-shadow;
   height: 50px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-bottom: 30px;
+  padding: 13px 18px 13px 17px;
 }
 
-.preview {
+.preview__card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -216,6 +328,17 @@ fieldset {
   margin-bottom: 5px;
 }
 
+.preview__url {
+  text-decoration: none;
+  font-family: $font-main;
+  font-size: 12px;
+  font-weight: 600;
+  color: $color-orange;
+  box-shadow: $color-shadow;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
 .preview__button {
   font-family: $font-main;
   font-size: $normalsize;
@@ -225,18 +348,9 @@ fieldset {
   text-align: center;
   background-color: $color-azure;
   border-radius: 3px;
+  padding: 3px 9px 6px 10.5px;
 }
 
-.preview__url {
-  text-decoration: none;
-  font-family: $font-main;
-  font-size: 12px;
-  font-weight: 600;
-  color: $color-orange;
-  box-shadow: $color-shadow;
-  margin-bottom: 10px;
-}
-
-.twitter {
+.preview__twitter {
   color: $color-white;
 }
