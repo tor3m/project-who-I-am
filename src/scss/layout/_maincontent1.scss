@@ -94,6 +94,13 @@
   .maincontainer1 {
     grid-column: 2/3;
     grid-row: 1/2;
+    height: 826px;
+    border-radius: 6px;
+    margin-right: 40px;
+    margin-top: 40px;
+    &__button {
+      margin-top: 180px;
+    }
   }
   .form {
     grid-column: 1/2;
