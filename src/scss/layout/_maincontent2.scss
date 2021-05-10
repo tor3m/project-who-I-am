@@ -1,5 +1,48 @@
 .form {
   margin-top: 27px;
+  margin-left: 40px;
+}
+
+fieldset {
+  border: none;
+  margin-right: 19px;
+  margin-left: 20px;
+  
+}
+.colors {
+  border-bottom: solid 1px $color-copy;
+}
+
+.colors__line {
+  
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors__title {
+  font-family: $font-main;
+  font-size: $sizedespleg;
+  color: $color-base;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
+.boxy {
+  color: $color-orange;
+  width: 21px;
+  height: 18px; 
+}
+
+.colors-up {
+  color: $color-base;
+  width: 16px;
+  height: 18px;
 }
 
 .colors_design {
@@ -106,37 +149,19 @@
 
 // PARTE MARIBEL
 
-fieldset {
-  border: none;
-  margin-right: 19px;
-  margin-left: 20px;
+.details {
+  border-bottom: solid 1px $color-copy;
 }
 
 .details__line {
-  border-top: solid 1px $color-copy;
+ 
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   margin-top: 10px;
   margin-bottom: 25px;
-}
-
-.details-up {
-  color: $color-base;
-}
-
-.details__form {
   display: flex;
-  flex-direction: column;
-}
-
-.details__photo-preview {
-  border: solid 1px $color-hospitalgreen;
-}
-
-.details__keyboard {
-  color: $color-orange;
+  justify-content: space-between;
+  align-items: center;
+ 
 }
 
 .details__title {
@@ -148,6 +173,28 @@ fieldset {
   padding-left: 10px;
   margin-bottom: 25px;
 }
+
+.details__keyboard {
+  color: $color-orange;
+  width: 21px;
+  height: 18px; 
+}
+
+.details-up {
+  color: $color-base;
+  width: 16px;
+  height: 18px;
+}
+
+.details__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.details__photo-preview {
+  border: solid 1px $color-hospitalgreen;
+}
+
 
 .details__fullName-form {
   font-family: $font-main;
@@ -254,15 +301,25 @@ fieldset {
   margin-bottom: 30px;
 }
 
+.share {
+  border-bottom: solid 1px $color-copy;
+  margin-bottom: 30px;
+}
+
 .share__line {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
+
 .share--send {
   color: $color-orange;
+  width: 16px;
+  height: 18px;
 }
 
 .share__title {
@@ -270,10 +327,13 @@ fieldset {
   font-size: $sizedespleg;
   color: $color-base;
   font-weight: 600;
+
 }
 
 .share-up {
   color: $color-base;
+  width: 16px;
+  height: 18px;
 }
 
 .share__create-button {
@@ -281,6 +341,8 @@ fieldset {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-bottom: solid 1px $color-copy;
+  margin-bottom: 30px;
 }
 
 .share__create-button-go {
@@ -335,6 +397,7 @@ fieldset {
   background-color: $color-azure;
   border-radius: 3px;
   padding: 3px 9px 6px 10.5px;
+  margin-bottom: 30px;
 }
 
 .preview__twitter {
