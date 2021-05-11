@@ -12,10 +12,9 @@
     <script src="main.js"></script>
   </body>
 </html>  
-
 "use strict";
-const container = document.querySelector(".container1");
-const active = document.querySelector(".button1");
+const container = document.querySelector(".colors_line");
+const active = document.querySelector(".b");
 function evenT() {
   container.classList.toggle("collapse");
   active.classList.toggle("arrow");
