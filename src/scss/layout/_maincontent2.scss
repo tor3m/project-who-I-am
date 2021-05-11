@@ -46,8 +46,6 @@ fieldset {
   
 }
 
-
-
 .colors_design {
   display: flex;
   justify-content: space-between;
@@ -194,14 +192,10 @@ fieldset {
   transform: rotate(180deg);
 }
 
-.collapse {
-  display: none;
-}
 
 .details__form {
-  width: 100%;
-  //display: flex;
-  //flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .details__photo-preview {
@@ -415,4 +409,8 @@ fieldset {
 
 .preview__twitter {
   color: $color-white;
+}
+
+.collapse {
+  display: none;
 }
