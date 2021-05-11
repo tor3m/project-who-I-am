@@ -43,7 +43,10 @@ fieldset {
   color: $color-base;
   width: 16px;
   height: 18px;
+  
 }
+
+
 
 .colors_design {
   display: flex;
@@ -180,15 +183,25 @@ fieldset {
   height: 18px; 
 }
 
+.buton {
+  border: none;
+}
+
 .details-up {
   color: $color-base;
   width: 16px;
   height: 18px;
+  transform: rotate(180deg);
+}
+
+.collapse {
+  display: none;
 }
 
 .details__form {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  //display: flex;
+  //flex-direction: column;
 }
 
 .details__photo-preview {

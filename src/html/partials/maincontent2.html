@@ -33,42 +33,46 @@
   <fieldset class="details">
     <div class="details__line">
       <legend class="details__title"> <i class="far fa-keyboard details__keyboard"></i> RELLENA </legend>
-      <i class="fas fa-chevron-up details-up"></i>
+      <button class="buton"><i class="fas fa-chevron-up details-up"></i></button>
     </div>
 
     <div class="details__form">
       <label class="details__fullName-form" for="fullName">Nombre completo</label>
       <input class="details__fullName-fieldSpace" type="text" name="fullName" title="fullName"
         placeholder="Ej: Sally Hill" />
-
       <label class="details__workTitle-form" for="workTitle">Puesto</label>
       <input class="details__workTitle-fieldSpace" type="text" name="workTitle" title="workTitle"
         placeholder="Ej: Front-end unicorn" />
-
       <label class="details__photo-form" for="photo">Imagen de perfil</label>
       <input class="details__photo-preview" type="text" name="photo" title="photo" placeholder="photo-view" />
-
       <div>
         <!--TEMPORAL hasta colocar el espacio para la foto preview-->
         <input class="details__photo-button" type="submit" name="photo-button" value="Añadir imagen" />
       </div>
-
       <label class="details__email-form" for="email">Email</label>
       <input class="details__email-fieldSpace" type="text" name="email" title="email"
         placeholder="Ej: Sally-hill@gmail.com" />
-
       <label class="details__phone-form" for="phone">Teléfono</label>
       <input class="details__phone-fieldSpace" type="text" name="phone" title="phone" placeholder="Ej: 555-55-55-55" />
-
       <label class="details__linkedin-form" for="linkedin">Linkedin</label>
       <input class="details__linkedin-fieldSpace" type="text" name="linkedin" title="linkedin"
         placeholder="Ej: linkedin.com/in/sally.hill" />
-
       <label class="details__github-form" for="github">Github</label>
       <input class="details__github-fieldSpace" type="text" title="github" name="github"
         placeholder="Ej: @sally-hill" />
     </div>
   </fieldset>
+
+  <script type="text/javascript">
+    const detailsForm = document.querySelector('.details__form');
+    const active = document.querySelector('.buton');
+    function evenT() {
+      detailsForm.classList.toggle("collapse");
+      active.classList.toggle("details-up")
+    }
+    active.addEventListener("click", evenT);
+  </script>
+
 
   <fieldset class="share">
     <div class="share__line">
