@@ -7,14 +7,12 @@ fieldset {
   border: none;
   margin-right: 19px;
   margin-left: 20px;
-  
 }
 .colors {
   border-bottom: solid 1px $color-copy;
 }
 
 .colors__line {
-  
   width: 100%;
   margin-top: 10px;
   margin-bottom: 25px;
@@ -33,17 +31,22 @@ fieldset {
   margin-bottom: 25px;
 }
 
+.colorstitle {
+  font-family: $font-main;
+  color: $color-base;
+  font-size: $normalsize;
+}
+
 .boxy {
   color: $color-orange;
   width: 21px;
-  height: 18px; 
+  height: 18px;
 }
 
 .colors-up {
   color: $color-base;
   width: 16px;
   height: 18px;
-  
 }
 
 .colors_design {
@@ -155,14 +158,12 @@ fieldset {
 }
 
 .details__line {
- 
   width: 100%;
   margin-top: 10px;
   margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 
 .details__title {
@@ -178,7 +179,7 @@ fieldset {
 .details__keyboard {
   color: $color-orange;
   width: 21px;
-  height: 18px; 
+  height: 18px;
 }
 
 .buton {
@@ -192,7 +193,6 @@ fieldset {
   transform: rotate(180deg);
 }
 
-
 .details__form {
   display: flex;
   flex-direction: column;
@@ -201,7 +201,6 @@ fieldset {
 .details__photo-preview {
   border: solid 1px $color-hospitalgreen;
 }
-
 
 .details__fullName-form {
   font-family: $font-main;
@@ -322,7 +321,6 @@ fieldset {
   align-items: center;
 }
 
-
 .share--send {
   color: $color-orange;
   width: 16px;
@@ -334,7 +332,6 @@ fieldset {
   font-size: $sizedespleg;
   color: $color-base;
   font-weight: 600;
-
 }
 
 .share-up {
