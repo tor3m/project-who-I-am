@@ -42,12 +42,15 @@
         </div>
       </section>
       <form class="form" action="#">
-        <fieldset>
-          <legend>
-            <h2 class="details__title">
-              <i class="far fa-object-ungroup" aria-hidden="true"></i> DISEÑA
-            </h2>
-          </legend>
+        <fieldset class="colors">
+          <div class="colors__line">
+            <legend class="colors__title">
+              <i class="far fa-object-ungroup boxy js-colorea" aria-hidden="true"></i>
+              DISEÑA
+            </legend>
+            <i class="fas fa-chevron-up colors-up"></i>
+          </div>
+
           <div class="colors_design">
             <h3 class="colorstitle">Colores</h3>
             <div class="palette">
@@ -74,11 +77,14 @@
         </fieldset>
         <!--PARTE MARIBEL-->
         <fieldset class="details">
-          <legend class="details__line">
-            <i class="far fa-keyboard details__keyboard"></i>
-            <h2 class="details__title">RELLENA</h2>
-            <i class="fas fa-chevron-up details-up"></i>
-          </legend>
+          <div class="details__line">
+            <legend class="details__title">
+              <i class="far fa-keyboard details__keyboard"></i> RELLENA
+            </legend>
+            <button class="buton">
+              <i class="fas fa-chevron-up details-up"></i>
+            </button>
+          </div>
 
           <div class="details__form">
             <label class="details__fullName-form" for="fullName"
@@ -91,7 +97,6 @@
               title="fullName"
               placeholder="Ej: Sally Hill"
             />
-
             <label class="details__workTitle-form" for="workTitle">Puesto</label>
             <input
               class="details__workTitle-fieldSpace"
@@ -100,7 +105,6 @@
               title="workTitle"
               placeholder="Ej: Front-end unicorn"
             />
-
             <label class="details__photo-form" for="photo">Imagen de perfil</label>
             <input
               class="details__photo-preview"
@@ -109,7 +113,6 @@
               title="photo"
               placeholder="photo-view"
             />
-
             <div>
               <!--TEMPORAL hasta colocar el espacio para la foto preview-->
               <input
@@ -119,7 +122,6 @@
                 value="Añadir imagen"
               />
             </div>
-
             <label class="details__email-form" for="email">Email</label>
             <input
               class="details__email-fieldSpace"
@@ -128,7 +130,6 @@
               title="email"
               placeholder="Ej: Sally-hill@gmail.com"
             />
-
             <label class="details__phone-form" for="phone">Teléfono</label>
             <input
               class="details__phone-fieldSpace"
@@ -137,7 +138,6 @@
               title="phone"
               placeholder="Ej: 555-55-55-55"
             />
-
             <label class="details__linkedin-form" for="linkedin">Linkedin</label>
             <input
               class="details__linkedin-fieldSpace"
@@ -146,7 +146,6 @@
               title="linkedin"
               placeholder="Ej: linkedin.com/in/sally.hill"
             />
-
             <label class="details__github-form" for="github">Github</label>
             <input
               class="details__github-fieldSpace"
@@ -159,13 +158,12 @@
         </fieldset>
 
         <fieldset class="share">
-          <!--ojo al cambio-->
-          <legend class="share__line">
-            <i class="fas fa-share-alt share--send"></i>
-            <h2 class="share__title">COMPARTE</h2>
+          <div class="share__line">
+            <legend class="share__title">
+              <i class="fas fa-share-alt share--send"></i> COMPARTE
+            </legend>
             <i class="fas fa-chevron-up share-up"></i>
-           
-          </legend>
+          </div>
           <nav class="share__create-button">
             <a
               href=""
@@ -197,6 +195,6 @@
 
     </footer>
 
-    <!-- <script src="./assets/js/main.js"></script> -->
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
