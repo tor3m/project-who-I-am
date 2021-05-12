@@ -31,8 +31,8 @@
             <h2 class="maincontainer1__title">Nombre apellido</h2>
             <h3 class="maincontainer1__subtitle">Front-end developer</h3>
           </div>
-          <img class="maincontainer1__img" src="https://thumbs.dreamstime.com/z/grey-woman-avatar-81266488.jpg"
-            alt="avatar-woman" />
+          <img class="maincontainer1__img" src="https://www.w3schools.com/howto/img_avatar2.png"
+            alt="avatar-woman"/>
           <nav class="maincontainer1__links-container">
             <a href="" class="maincontainer1__links"><i class="fas fa-mobile-alt"></i></a>
             <a href="" class="maincontainer1__links"><i class="far fa-envelope"></i></a>
@@ -42,12 +42,15 @@
         </div>
       </section>
       <form class="form" action="#">
-        <fieldset>
-          <legend>
-            <h2 class="details__title">
-              <i class="far fa-object-ungroup" aria-hidden="true"></i> DISEÑA
-            </h2>
-          </legend>
+        <fieldset class="colors">
+          <div class="colors__line">
+            <legend class="colors__title">
+              <i class="far fa-object-ungroup boxy js-colorea" aria-hidden="true"></i>
+              DISEÑA
+            </legend>
+            <i class="fas fa-chevron-up colors-up"></i>
+          </div>
+
           <div class="colors_design">
             <h3 class="colorstitle">Colores</h3>
             <div class="palette">
@@ -74,105 +77,51 @@
         </fieldset>
         <!--PARTE MARIBEL-->
         <fieldset class="details">
-          <legend class="details__line">
-            <i class="far fa-keyboard details__keyboard"></i>
-            <h2 class="details__title">RELLENA</h2>
-            <i class="fas fa-chevron-up details-up"></i>
-          </legend>
+          <div class="details__line">
+            <legend class="details__title">
+              <i class="far fa-keyboard details__keyboard"></i> RELLENA
+            </legend>
+            <button class="buton">
+              <i class="fas fa-chevron-up details-up"></i>
+            </button>
+          </div>
 
           <div class="details__form">
-            <label class="details__fullName-form" for="fullName"
-              >Nombre completo</label
-            >
-            <input
-              class="details__fullName-fieldSpace"
-              type="text"
-              name="fullName"
-              title="fullName"
-              placeholder="Ej: Sally Hill"
-            />
-
+            <label class="details__fullName-form" for="fullName">Nombre completo</label>
+            <input class="details__fullName-fieldSpace" type="text" name="fullName" title="fullName"
+              placeholder="Ej: Sally Hill" />
             <label class="details__workTitle-form" for="workTitle">Puesto</label>
-            <input
-              class="details__workTitle-fieldSpace"
-              type="text"
-              name="workTitle"
-              title="workTitle"
-              placeholder="Ej: Front-end unicorn"
-            />
-
+            <input class="details__workTitle-fieldSpace" type="text" name="workTitle" title="workTitle"
+              placeholder="Ej: Front-end unicorn" />
             <label class="details__photo-form" for="photo">Imagen de perfil</label>
-            <input
-              class="details__photo-preview"
-              type="text"
-              name="photo"
-              title="photo"
-              placeholder="photo-view"
-            />
-
+            <input class="details__photo-preview" type="text" name="photo" title="photo" placeholder="photo-view" />
             <div>
               <!--TEMPORAL hasta colocar el espacio para la foto preview-->
-              <input
-                class="details__photo-button"
-                type="submit"
-                name="photo-button"
-                value="Añadir imagen"
-              />
+              <input class="details__photo-button" type="submit" name="photo-button" value="Añadir imagen" />
             </div>
-
             <label class="details__email-form" for="email">Email</label>
-            <input
-              class="details__email-fieldSpace"
-              type="text"
-              name="email"
-              title="email"
-              placeholder="Ej: Sally-hill@gmail.com"
-            />
-
+            <input class="details__email-fieldSpace" type="text" name="email" title="email"
+              placeholder="Ej: Sally-hill@gmail.com" />
             <label class="details__phone-form" for="phone">Teléfono</label>
-            <input
-              class="details__phone-fieldSpace"
-              type="text"
-              name="phone"
-              title="phone"
-              placeholder="Ej: 555-55-55-55"
-            />
-
+            <input class="details__phone-fieldSpace" type="text" name="phone" title="phone" placeholder="Ej: 555-55-55-55" />
             <label class="details__linkedin-form" for="linkedin">Linkedin</label>
-            <input
-              class="details__linkedin-fieldSpace"
-              type="text"
-              name="linkedin"
-              title="linkedin"
-              placeholder="Ej: linkedin.com/in/sally.hill"
-            />
-
+            <input class="details__linkedin-fieldSpace" type="text" name="linkedin" title="linkedin"
+              placeholder="Ej: linkedin.com/in/sally.hill" />
             <label class="details__github-form" for="github">Github</label>
-            <input
-              class="details__github-fieldSpace"
-              type="text"
-              title="github"
-              name="github"
-              placeholder="Ej: @sally-hill"
-            />
+            <input class="details__github-fieldSpace" type="text" title="github" name="github"
+              placeholder="Ej: @sally-hill" />
           </div>
         </fieldset>
 
         <fieldset class="share">
-          <!--ojo al cambio-->
-          <legend class="share__line">
-            <i class="fas fa-share-alt share--send"></i>
-            <h2 class="share__title">COMPARTE</h2>
+          <div class="share__line">
+            <legend class="share__title">
+              <i class="fas fa-share-alt share--send"></i> COMPARTE
+            </legend>
             <i class="fas fa-chevron-up share-up"></i>
-           
-          </legend>
+          </div>
           <nav class="share__create-button">
-            <a
-              href=""
-              class="share__create-button-go"
-              type="submit"
-              value="CREAR TARJETA"
-            >
+            <a href="" class="share__create-button-go" type="submit" value="CREAR TARJETA">
               <i class="far fa-address-card"></i> CREAR TARJETA
             </a>
           </nav>
@@ -183,13 +132,11 @@
               <a class="preview__url" href="#">https:blablablablablablablabla.com</a>
               <a class="preview__button" href="">
                 <i class="fab fa-twitter preview__twitter"></i> Compartir en
-                twitter</a
-              >
+                twitter</a>
             </nav>
           </section>
         </fieldset>
       </form>
-
     </main>
     <footer class="footer">
         <small class="copy "> Awesome profile cards @ 2021 </small>
@@ -197,6 +144,6 @@
 
     </footer>
 
-    <!-- <script src="./assets/js/main.js"></script> -->
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
