@@ -199,10 +199,6 @@ fieldset {
   flex-direction: column;
 }
 
-.details__photo-preview {
-  border: solid 1px $color-hospitalgreen;
-}
-
 .details__fullName-form {
   font-family: $font-main;
   font-size: $normalsize;
@@ -231,6 +227,13 @@ fieldset {
   margin-bottom: 20px;
 }
 
+.details__photo {
+  display: flex;
+  flex-direction: column ;
+}
+
+
+
 .details__photo-form {
   font-family: $font-main;
   font-size: $normalsize;
@@ -240,6 +243,7 @@ fieldset {
 }
 
 .details__photo-preview {
+  border: solid 1px $color-hospitalgreen;
   width: 30px;
   height: 30px;
 }
@@ -255,7 +259,15 @@ fieldset {
   padding: 3px 22px 7px 22px;
   box-shadow: rgba(0, 0, 0, 0.32);
   margin-bottom: 20px;
+  cursor: pointer;
 }
+
+.action__hiddenField {
+  /* Ocultamos el input de tipo "file" porque no podemos 
+  darle los estilos que queremos */
+  display: none;
+}
+
 
 .details__email-form {
   font-family: $font-main;
@@ -269,11 +281,6 @@ fieldset {
   border: solid 1px $color-hospitalgreen;
   height: 30px;
   margin-bottom: 20px;
-}
-
-.details__photo {
-  display: flex;
-  flex-direction: column ;
 }
 
 .details__phone-form {
