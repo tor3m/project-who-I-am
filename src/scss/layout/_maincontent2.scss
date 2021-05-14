@@ -238,6 +238,11 @@ fieldset {
   margin-bottom: 7px;
 }
 
+.details__photo-preview {
+  width: 30px;
+  height: 30px;
+}
+
 .details__photo-button {
   font-family: $font-main;
   font-size: $normalsize;
@@ -263,6 +268,11 @@ fieldset {
   border: solid 1px $color-hospitalgreen;
   height: 30px;
   margin-bottom: 20px;
+}
+
+.details__photo {
+  display: flex;
+  flex-direction: column ;
 }
 
 .details__phone-form {
