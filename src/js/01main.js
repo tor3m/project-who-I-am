@@ -1,11 +1,13 @@
-//
-// "use strict";
-// const choosec1 = document.querySelector(".js-colorea");
-// const choosec2 = document.querySelector(".");
-// function evenT() {
-//   choosec1.classList.toggle("collapse");
-//   choosec2.classList.toggle("arrow");
-// }
-// active.addEventListener("click", evenT);
 
-//
+// "use strict";
+// const chooseC = document.querySelector(".colors__line");
+// const choosec2 = document.querySelector(".colors-up");
+// function eventFill() {
+//   chooseC.classList.toggle("collapseShare");
+//   choosec2.classList.toggle("arrowShare");
+// }
+// active.addEventListener("click", eventFill);
+
+
+//ME CARGO LOS otros
+
