@@ -59,7 +59,6 @@ fieldset {
   height: 17px;
   border-radius: 17px;
   margin-right: 10px;
-  
 }
 
 .palette {
@@ -229,7 +228,7 @@ fieldset {
 
 .details__photo {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
 }
 
 .details__photo-form {
@@ -265,7 +264,6 @@ fieldset {
   darle los estilos que queremos */
   display: none;
 }
-
 
 .details__email-form {
   font-family: $font-main;
@@ -426,4 +424,12 @@ fieldset {
 
 .collapse {
   display: none;
+}
+
+.collapseShare {
+  display: none;
+}
+
+.arrowShare {
+  transform: rotate(180deg);
 }
