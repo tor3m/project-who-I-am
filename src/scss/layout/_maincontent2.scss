@@ -47,6 +47,7 @@ fieldset {
   color: $color-base;
   width: 16px;
   height: 18px;
+  cursor: pointer;
 }
 
 .colors_design {
@@ -187,10 +188,10 @@ fieldset {
 }
 
 .details-up {
+  text-decoration: none;
   color: $color-base;
   width: 16px;
   height: 18px;
-  transform: rotate(180deg);
   cursor: pointer;
 }
 
@@ -244,6 +245,9 @@ fieldset {
   border: solid 1px $color-hospitalgreen;
   width: 30px;
   height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .details__photo-button {
@@ -358,6 +362,7 @@ fieldset {
   color: $color-base;
   width: 16px;
   height: 18px;
+  cursor: pointer;
 }
 
 .share__create-button {
