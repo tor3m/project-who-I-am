@@ -14,6 +14,7 @@ function eventFill3() {
   containerShare.classList.toggle("collapseShare");
   activeShare.classList.toggle("arrowShare");
 }
+
 choosec2.addEventListener("click", eventFill);
 active.addEventListener("click", eventFill2);
 activeShare.addEventListener("click", eventFill3);
