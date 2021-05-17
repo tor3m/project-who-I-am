@@ -54,19 +54,27 @@
             <h3 class="colorstitle">Colores</h3>
             <div class="palette">
               <ul class="opt1color">
-                <input type="radio" class="choosecolor">
+                <label for="palets">
+                  <input type="radio" class="choosecolor" id="palets" name="hell">
+                </label>
                 <li class="opt1-1"></li>
                 <li class="opt1-2"></li>
                 <li class="opt1-3"></li>
+
               </ul>
               <ul class="opt2color">
-                <input type="radio" class="choosecolor">
+                <label for="palets1">
+                  <input type="radio" class="choosecolor" id="palets1" name="hell">
+                </label>
                 <li class="opt2-1"></li>
                 <li class="opt2-2"></li>
                 <li class="opt2-3"></li>
+
               </ul>
               <ul class="opt3color">
-                <input type="radio" class="choosecolor">
+                <label for="palets2">
+                  <input type="radio" class="choosecolor" id="palets2" name="hell">
+                </label>
                 <li class="opt3-1"></li>
                 <li class="opt3-2"></li>
                 <li class="opt3-3"></li>
@@ -80,11 +88,8 @@
             <legend class="details__title">
               <i class="far fa-keyboard details__keyboard"></i> RELLENA
             </legend>
-            <button class="buton">
-              <i class="fas fa-chevron-up details-up"></i>
-            </button>
+            <i class="fas fa-chevron-up details-up"></i>
           </div>
-
           <div class="details__form">
             <label class="details__fullName-form" for="fullName">Nombre completo</label>
             <input class="details__fullName-fieldSpace" type="text" name="fullName" title="fullName"
@@ -96,7 +101,8 @@
             <div class="action">
               <label class="details__photo-button" for="img-selector">Añadir imagen</label>
               <input type="file" name="" id="img-selector" class="action__hiddenField js__profile-upload-btn">
-              <div class="profile__image js__profile-image details__photo-preview " style="background-image:url(https://www.w3schools.com/howto/img_avatar2.png)"></div>
+              <div class="profile__image js__profile-image details__photo-preview "
+                style="background-image:url(https://www.w3schools.com/howto/img_avatar2.png)"></div>
             </div>
             <label class="details__email-form" for="email">Email</label>
             <input class="details__email-fieldSpace" type="text" name="email" title="email"
