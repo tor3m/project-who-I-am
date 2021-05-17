@@ -1,11 +1,3 @@
-const form = document.querySelector(".js-form");
-const nameTarget = document.querySelector(".js-name");
-const job = document.querySelector(".js-job");
-const phone = document.querySelector(".js-telefono");
-const mail = document.querySelector(".js-mail");
-const linkedin = document.querySelector(".js-linkedin");
-const gitHub = document.querySelector(".js-git");
-
 const data = {
   name: "",
   job: "",
