@@ -41,4 +41,4 @@ function handlerTotalChange(ev) {
   hadlerChangePreview();
 }
 
-form.addEventListener("change", handlerTotalChange);
+form.addEventListener("keyup", handlerTotalChange);
