@@ -4,14 +4,16 @@
 // // photoPreviewHeader.style.cssText = "color:red, border:purple";
 // photoPreviewFooter.style.cssText = "color:red, border:purple";
 
-const borderColor = document.querySelector(".js__border-palette");
+const borderColor = document.querySelector(".js-headerpreview");
+
 const textColor = document.querySelector(".js-name");
 const links2 = document.querySelector(".js-footerpreview");
 const select1 = document.querySelector(".js-CHeckColor1");
 const select2 = document.querySelector(".js-CHeckColor2");
 const select3 = document.querySelector(".js-CHeckColor3");
 
-let linkPallete = document.querySelectorAll(".js__link__pallete")
+let linkPallete = document.querySelectorAll(".js__link__pallete");
+let linkRadius = document.querySelectorAll(".js__link__radius");
 
 
 function selectColor(ev) {
@@ -28,6 +30,10 @@ function selectColor(ev) {
     links.classList.add("links2");
     links.classList.remove("links3");
   }
+  for (const links2 of linkRadius){
+    links2.classList.add("links2_1");
+    links2.classList.remove("links3_1");
+  }
   };
 
 
@@ -40,6 +46,10 @@ function selectColor(ev) {
     for (const links of linkPallete){
       links.classList.add("links3");
     }
+    for (const links2 of linkRadius){
+      links2.classList.add("links3_1");
+      links2.classList.remove("links2_1");
+    }
   }
 
   if (clickSelect === "1") {
@@ -50,6 +60,9 @@ function selectColor(ev) {
     //color links//
     for (const links of linkPallete){
       links.classList.remove("links3", "links2");
+    }
+    for (const links2 of linkRadius){
+    links2.classList.remove("links2_1");
     }
   }
 };
