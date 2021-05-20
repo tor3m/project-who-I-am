@@ -13,17 +13,18 @@
   background-color: $background-main;
   text-align: center;
   @media all and (min-width: 768px) {
-    height: 455px;
   }
 }
 .main-logo {
+  margin-top: 95px;
   width: 250px;
   height: 63px;
-  margin: 95px 35px 0px 35px;
+  /*margin: 95px 35px 0px 35px;*/
   @media all and (min-width: 768px) {
     width: 419px;
     height: 105px;
-    margin: 350px 174px 0px 174px;
+    /*margin-top: 350px;*/
+    /*margin: 350px 174px 0px 174px;*/
   }
 }
 
@@ -86,7 +87,6 @@
 }
 .boton {
   margin-top: 38.6px;
-  margin-bottom: 30px;
   width: 129px;
   height: 42px;
   background-color: $color-green;
@@ -95,10 +95,10 @@
   border-radius: 21px;
   line-height: 2.5;
   @media all and (min-width: 768px) {
-    margin-top: 218px;
+    margin-top: 90px;
   }
 }
-.boton-link {
+.boton-link-main {
   font-family: $font-main;
   text-decoration: none;
   color: $color-white;

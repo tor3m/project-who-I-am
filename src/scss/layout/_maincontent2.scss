@@ -97,6 +97,7 @@ main {
 }
 .form {
   margin-top: 27px;
+  margin-left: 40px;
 }
 
 fieldset {
@@ -104,32 +105,172 @@ fieldset {
   margin-right: 19px;
   margin-left: 20px;
 }
+.colors {
+  border-bottom: solid 1px $color-copy;
+}
 
-.details__icon {
-  border-top: solid 1px $color-copy;
+.colors__line {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   margin-top: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors__title {
+  font-family: $font-main;
+  font-size: $sizedespleg;
+  color: $color-base;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
   margin-bottom: 25px;
 }
 
+<<<<<<< HEAD
 .up {
   color: $color-base;
 }
 
 .down {
   color: $color-base;
+=======
+.colorstitle {
+  font-family: $font-main;
+  color: $color-base;
+  font-size: $normalsize;
 }
 
-.details__form {
+.boxy {
+  color: $color-orange;
+  width: 21px;
+  height: 18px;
+>>>>>>> origin
+}
+
+.colors-up {
+  color: $color-base;
+  width: 16px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.colors_design {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choosecolor {
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  margin-right: 10px;
+}
+
+.palette {
+  margin-right: 20px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-.details__photo-preview {
-  border: solid 1px $color-hospitalgreen;
+.colorstitle {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 39px;
+}
+
+.opt1color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: thin;
+}
+
+.opt2color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: thin;
+}
+
+.opt3color {
+  width: 90px;
+  height: 25px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: thin;
+}
+
+.opt1-1 {
+  background-color: $color1-1;
+  width: 30px;
+}
+
+.opt1-2 {
+  background-color: $color1-2;
+  width: 30px;
+}
+
+.opt1-3 {
+  background-color: $color1-3;
+  width: 30px;
+}
+
+.opt2-1 {
+  background-color: $color2-1;
+  width: 30px;
+}
+
+.opt2-2 {
+  background-color: $color2-2;
+  width: 30px;
+}
+
+.opt2-3 {
+  background-color: $color2-3;
+  width: 30px;
+}
+
+.opt3-1 {
+  background-color: $color3-1;
+  width: 30px;
+}
+
+.opt3-2 {
+  background-color: $color3-2;
+  width: 30px;
+}
+
+.opt3-3 {
+  background-color: $color3-3;
+  width: 30px;
+}
+
+// PARTE MARIBEL
+
+.details {
+  border-bottom: solid 1px $color-copy;
+}
+
+.details__line {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .details__title {
   font-family: $font-main;
@@ -141,10 +282,32 @@ fieldset {
   margin-bottom: 25px;
 }
 
-.keyboard {
+.details__keyboard {
   color: $color-orange;
+<<<<<<< HEAD
   text-transform: uppercase; /*para añadir*/
   font-size: $sizedespleg; /*para añadir*/
+=======
+  width: 21px;
+  height: 18px;
+}
+
+.buton {
+  border: none;
+}
+
+.details-up {
+  text-decoration: none;
+  color: $color-base;
+  width: 16px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.details__form {
+  display: flex;
+  flex-direction: column;
+>>>>>>> origin
 }
 
 .details__fullName-form {
@@ -175,12 +338,26 @@ fieldset {
   margin-bottom: 20px;
 }
 
+.details__photo {
+  display: flex;
+  flex-direction: column;
+}
+
 .details__photo-form {
   font-family: $font-main;
   font-size: $normalsize;
   line-height: 1.43;
   color: $color-green;
   margin-bottom: 7px;
+}
+
+.details__photo-preview {
+  border: solid 1px $color-hospitalgreen;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .details__photo-button {
@@ -191,9 +368,21 @@ fieldset {
   background-color: $color-orange;
   border-radius: 3px;
   height: 30px;
-  padding: 3px 22px 7px;
+  padding: 3px 22px 7px 22px;
   box-shadow: rgba(0, 0, 0, 0.32);
   margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+.action__hiddenField {
+  /* Ocultamos el input de tipo "file" porque no podemos 
+  darle los estilos que queremos */
+  display: none;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
 }
 
 .details__email-form {
@@ -252,13 +441,24 @@ fieldset {
   margin-bottom: 30px;
 }
 
-.send {
-  color: $color-orange;
+.share {
+  border-bottom: solid 1px $color-copy;
+  margin-bottom: 30px;
 }
 
-.share {
+.share__line {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.share--send {
+  color: $color-orange;
+  width: 16px;
+  height: 18px;
 }
 
 .share__title {
@@ -268,14 +468,23 @@ fieldset {
   font-weight: 600;
 }
 
-.share__button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.share-up {
+  color: $color-base;
+  width: 16px;
+  height: 18px;
+  cursor: pointer;
 }
 
 .share__create-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px $color-copy;
+  margin-bottom: 30px;
+}
+
+.share__create-button-go {
   font-family: $font-main;
   font-size: $sizedespleg;
   font-weight: 600;
@@ -287,9 +496,10 @@ fieldset {
   height: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding: 13px 18px 13px 17px;
 }
 
-.preview {
+.preview__card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -305,6 +515,17 @@ fieldset {
   margin-bottom: 5px;
 }
 
+.preview__url {
+  text-decoration: none;
+  font-family: $font-main;
+  font-size: 12px;
+  font-weight: 600;
+  color: $color-orange;
+  box-shadow: $color-shadow;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
 .preview__button {
   font-family: $font-main;
   font-size: $normalsize;
@@ -314,18 +535,18 @@ fieldset {
   text-align: center;
   background-color: $color-azure;
   border-radius: 3px;
+  padding: 3px 9px 6px 10.5px;
+  margin-bottom: 30px;
 }
 
-.preview__url {
-  text-decoration: none;
-  font-family: $font-main;
-  font-size: 12px;
-  font-weight: 600;
-  color: $color-orange;
-  box-shadow: $color-shadow;
-  margin-bottom: 10px;
-}
-
-.twitter {
+.preview__twitter {
   color: $color-white;
+}
+
+.collapseShare {
+  display: none;
+}
+
+.arrowShare {
+  transform: rotate(180deg);
 }

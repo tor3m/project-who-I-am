@@ -1,3 +1,7 @@
+.main {
+  background-color: $background-main;
+}
+
 .maincontainer1 {
   background: linear-gradient(to bottom, #bfcdd0, #dde9ed);
   height: 457px;
@@ -53,9 +57,12 @@
   }
   &__img {
     height: 200px;
-    width: 240px;
-    border: black solid 1px;
+    width: 238px;
     margin-top: 10px;
+    background-image: url(https://www.w3schools.com/howto/img_avatar2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   &__links-container {
     padding-left: 20px;
@@ -78,10 +85,48 @@
     text-decoration: none;
     color: $color-green;
   }
-  .fa-mobile-alt {
-    color: $color-green;
+}
+@media (min-width: 720px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
   }
-  .fa-envelope {
-    color: $color-green;
+  .maincontainer1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 826px;
+    border-radius: 6px;
+    margin-right: 40px;
+    margin-top: 40px;
+    &__button {
+      margin-top: 180px;
+    }
   }
+  .form {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+//Paleta 2
+.border-preview2 {
+  border: $color2-2;
+}
+.h1-color2 {
+  color: $color2-1;
+}
+.links2 {
+  color: $color2-2;
+  border: $color2-3;
+}
+//Paleta 3
+.border-preview3 {
+  border: $color3-2;
+}
+.h1-color3 {
+  color: $color3-1;
+}
+.links3 {
+  color: $color3-2;
+  border: $color3-3;
 }
