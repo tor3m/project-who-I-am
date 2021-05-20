@@ -59,6 +59,7 @@
     height: 200px;
     width: 238px;
     margin-top: 10px;
+    background-image: url(https://www.w3schools.com/howto/img_avatar2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,12 +85,6 @@
     text-decoration: none;
     color: $color-green;
   }
-  .fa-mobile-alt {
-    color: $color-green;
-  }
-  .fa-envelope {
-    color: $color-green;
-  }
 }
 @media (min-width: 720px) {
   .main {
@@ -113,5 +108,25 @@
     grid-row: 1/2;
   }
 }
-
-
+//Paleta 2
+.border-preview2 {
+  border: $color2-2;
+}
+.h1-color2 {
+  color: $color2-1;
+}
+.links2 {
+  color: $color2-2;
+  border: $color2-3;
+}
+//Paleta 3
+.border-preview3 {
+  border: $color3-2;
+}
+.h1-color3 {
+  color: $color3-1;
+}
+.links3 {
+  color: $color3-2;
+  border: $color3-3;
+}
