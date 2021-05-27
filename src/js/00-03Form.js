@@ -43,31 +43,12 @@ function handlerTotalChange(ev) {
 
 form.addEventListener("keyup", handlerTotalChange);
 
+//REset
+let buttonReset = document.querySelector(".js-btn-reset");
 
-// const buttonReset = document.getElementById('#reset').reset();
-// function resetForm(){
-//   location.reset();
-// }
+function resetForm(ev) {
+  document.getElementById("resetform").reset();
+  handlerTotalChange(ev);
+}
 
-// buttonReset.addEventListener("click", resetForm());
-
-
-// const reloadButton = document.getElementById("reset");
-
-// const addReset  = document.querySelectorAll(".js-form");
-//   for (const deleteButton of deleteButtons) {
-//     deleteButton.addEventListener("click", deleteSerieFromFavorites);
-// function cleanForm() {
-
-//   console.log (reloadButton)
-// }
-// const reloadButton = document.querySelector;
-// reloadButton.addEventListener("click", cleanForm());
-
-// function reload() {
-  
-//   location.reload();
-
-// }
-//
-
+buttonReset.addEventListener("click", resetForm);
