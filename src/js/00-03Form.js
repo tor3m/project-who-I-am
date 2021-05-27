@@ -1,31 +1,20 @@
 "use strict";
 
-const data = {
-  name: "",
-  job: "",
-  img: "",
-  phone: "",
-  mail: "",
-  linkedin: "",
-  git: "",
-};
-
 function handlerChangeForm(ev) {
   const inputNameChange = ev.target.name;
   const inputValueChange = ev.target.value;
   if (inputNameChange === "fullName") {
     data.name = inputValueChange;
-    nameTarget.innerHTML = data.name;
   } else if (inputNameChange === "workTitle") {
     data.job = inputValueChange;
   } else if (inputNameChange === "email") {
-    data.mail = inputValueChange;
+    data.email = inputValueChange;
   } else if (inputNameChange === "phone") {
     data.phone = inputValueChange;
   } else if (inputNameChange === "linkedin") {
     data.linkedin = inputValueChange;
   } else if (inputNameChange === "github") {
-    data.git = inputValueChange;
+    data.github = inputValueChange;
   }
 }
 
@@ -33,12 +22,13 @@ function hadlerChangePreview() {
   nameTarget.innerHTML = data.name;
   job.innerHTML = data.job;
   phone.href = data.phone;
-  mail.href = data.mail;
-  linkedin.href = "https://linkedin.com/in/${data.linkedin}";
-  gitHub.href = "https://github.com/${data.git}";
+  email.href = data.email;
+  linkedin.href = `https://linkedin.com/in/${data.linkedin}`;
+  gitHub.href = `https://github.com/${data.github}`;
 }
 
 function handlerTotalChange(ev) {
+
   handlerChangeForm(ev);
   hadlerChangePreview();
 }
@@ -62,7 +52,7 @@ function deleteAllPreview() {
   profileImage.style.background =
     "url(https://www.w3schools.com/howto/img_avatar2.png) center";
   phone.href = "";
-  mail.href = "";
+  email.href = "";
   linkedin.href = "";
   gitHub.href = "";
 }
@@ -79,3 +69,4 @@ function resetPallete() {
 }
 
 buttonReset.addEventListener("click", resetForm);
+

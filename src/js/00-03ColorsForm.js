@@ -66,6 +66,7 @@ function selectColor(ev) {
     links2.classList.remove("links2_1");
     }
   }
+  data.palette = clickSelect;
 };
 
 
