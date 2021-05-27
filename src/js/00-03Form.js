@@ -42,3 +42,29 @@ function handlerTotalChange(ev) {
 }
 
 form.addEventListener("keyup", handlerTotalChange);
+
+
+// const buttonReset = document.getElementById('#reset').reset();
+// function resetForm(){
+//   location.reset();
+// }
+
+// buttonReset.addEventListener("click", resetForm());
+
+
+// const reloadButton = document.getElementById("reset");
+
+const reloadButton = document.getElementById("resetform").reset();
+function cleanForm() {
+  location.reset();
+}
+
+reloadButton.addEventListener("click", cleanForm());
+
+// function reload() {
+  
+//   location.reload();
+
+// }
+//
+
