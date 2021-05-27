@@ -48,7 +48,16 @@ let buttonReset = document.querySelector(".js-btn-reset");
 
 function resetForm(ev) {
   document.getElementById("resetform").reset();
-  handlerTotalChange(ev);
+  nameTarget.innerHTML = "Nombre Apellido";
+  job.innerHTML = "Front-end developer";
+  profilePreview.style.background =
+    "url(https://www.w3schools.com/howto/img_avatar2.png) center";
+  profileImage.style.background =
+    "url(https://www.w3schools.com/howto/img_avatar2.png) center";
+  phone.href = "";
+  mail.href = "";
+  linkedin.href = "";
+  gitHub.href = "";
 }
 
 buttonReset.addEventListener("click", resetForm);
