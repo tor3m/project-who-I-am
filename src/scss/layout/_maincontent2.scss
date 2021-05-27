@@ -275,10 +275,6 @@ fieldset {
 
 .details__keyboard {
   color: $color-orange;
-<<<<<<< HEAD
-  text-transform: uppercase; /*para añadir*/
-  font-size: $sizedespleg; /*para añadir*/
-=======
   width: 21px;
   height: 18px;
 }
@@ -298,7 +294,6 @@ fieldset {
 .details__form {
   display: flex;
   flex-direction: column;
->>>>>>> origin
 }
 
 .details__fullName-form {
