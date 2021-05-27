@@ -50,7 +50,32 @@ let buttonReset = document.querySelector(".js-btn-reset");
 
 function resetForm(ev) {
   document.getElementById("resetform").reset();
-  handlerTotalChange(ev);
+  deleteAllPreview();
+  resetPallete();
+}
+
+function deleteAllPreview() {
+  nameTarget.innerHTML = "Nombre Apellido";
+  job.innerHTML = "Front-end developer";
+  profilePreview.style.background =
+    "url(https://www.w3schools.com/howto/img_avatar2.png) center";
+  profileImage.style.background =
+    "url(https://www.w3schools.com/howto/img_avatar2.png) center";
+  phone.href = "";
+  mail.href = "";
+  linkedin.href = "";
+  gitHub.href = "";
+}
+
+function resetPallete() {
+  textColor.classList.remove("h1-color3", "h1-color2");
+  borderColor.classList.remove("border-preview3", "border-preview2");
+  for (const links of linkPallete) {
+    links.classList.remove("links3", "links2");
+  }
+  for (const links2 of linkRadius) {
+    links2.classList.remove("links2_1");
+  }
 }
 
 buttonReset.addEventListener("click", resetForm);
