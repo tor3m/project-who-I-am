@@ -110,23 +110,29 @@
 }
 //Paleta 2
 .border-preview2 {
-  border: $color2-2;
+  border-left: 5px $color2-2 solid;
 }
 .h1-color2 {
   color: $color2-1;
 }
 .links2 {
   color: $color2-2;
-  border: $color2-3;
+}
+.links2_1 {
+  border: solid 2px $color2-3;
+  border-radius: 16px;
 }
 //Paleta 3
 .border-preview3 {
-  border: $color3-2;
+  border-left: 5px $color3-2 solid;
 }
 .h1-color3 {
   color: $color3-1;
 }
 .links3 {
   color: $color3-2;
-  border: $color3-3;
+}
+.links3_1 {
+  border: solid 2px $color3-3;
+  border-radius: 16px;
 }
