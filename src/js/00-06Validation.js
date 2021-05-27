@@ -14,7 +14,7 @@ function handlerCreateCard(ev) {
   let breakFunction = false;
   for (let input in data) {
     if (data[input] === "") {
-      errorMsg.innerHTML += `Rellena ${input}<br>`;
+      errorMsg.innerHTML += `"Rellena ${input}"<br>`;
       breakFunction = true;
     }
   }

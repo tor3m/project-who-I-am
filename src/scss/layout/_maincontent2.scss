@@ -389,6 +389,13 @@ fieldset {
   padding: 13px 18px 13px 17px;
 }
 
+.error {
+  color: $color2-3;
+  font-family: $font-main;
+  font-size: $normalsize;
+  text-align: center;
+}
+
 .preview__card {
   display: flex;
   flex-direction: column;
