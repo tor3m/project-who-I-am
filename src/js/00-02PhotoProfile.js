@@ -14,31 +14,19 @@ function getImage(e) {
   fr.readAsDataURL(myFile);
 }
 
-/**
- * Una vez tenemos los datos listos en el FR podemos
- * trabajar con ellos ;)
- */
 function writeImage() {
-  /* En la propiedad `result` de nuestro FR se almacena
-   * el resultado. Ese resultado de procesar el fichero que hemos cargado
-   * podemos pasarlo como background a la imagen de perfil y a la vista previa
-   * de nuestro componente.
-   */
-  profileImage.style.backgroundImage = `url(${fr.result})`;
-  profilePreview.style.backgroundImage = `url(${fr.result})`;
+  data.photo = fr.result;
+  if (data.photo === "") {
+    profileImage.style.backgroundImage =
+      "https://www.w3schools.com/howto/img_avatar2.png";
+  } else {
+    profileImage.style.backgroundImage = `url(${data.photo})`;
+    profilePreview.style.backgroundImage = `url(${data.photo})`;
+  }
 }
 
-/**
- * Genera un click automático en nuesto campo de tipo "file"
- * que está oculto
- */
 function fakeFileClick() {
   fileField.click();
 }
 
-/**
- * Añadimos los listeners necesarios:
- * - al botón visible para generar el click automático
- * - al campo oculto para cuando cambie su value
- */
 fileField.addEventListener("change", getImage);
