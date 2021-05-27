@@ -43,6 +43,7 @@ function handlerTotalChange(ev) {
 
 form.addEventListener("keyup", handlerTotalChange);
 
+<<<<<<< HEAD
 
 // const buttonReset = document.getElementById('#reset').reset();
 // function resetForm(){
@@ -71,3 +72,14 @@ form.addEventListener("keyup", handlerTotalChange);
 // }
 //
 
+=======
+//REset
+let buttonReset = document.querySelector(".js-btn-reset");
+
+function resetForm(ev) {
+  document.getElementById("resetform").reset();
+  handlerTotalChange(ev);
+}
+
+buttonReset.addEventListener("click", resetForm);
+>>>>>>> master
