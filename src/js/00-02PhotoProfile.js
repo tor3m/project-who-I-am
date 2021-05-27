@@ -23,6 +23,7 @@ function writeImage() {
     profileImage.style.backgroundImage = `url(${data.photo})`;
     profilePreview.style.backgroundImage = `url(${data.photo})`;
   }
+  saveLocalStorage();
 }
 
 function fakeFileClick() {

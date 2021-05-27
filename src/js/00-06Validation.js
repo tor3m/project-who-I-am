@@ -10,11 +10,10 @@ const errorMsg = document.querySelector(".js-error");
 
 function handlerCreateCard(ev) {
   ev.preventDefault();
-
   let errorHtml = "";
   for (let i in data) {
     if (data[input] === "") {
-      errorHtml += `Rellena ${input} || `;
+      errorHtml += `Rellena ${input} ||`;
     }
   }
   errorMsg.innerHTML = errorHtml;
