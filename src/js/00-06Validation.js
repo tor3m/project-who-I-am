@@ -7,6 +7,10 @@ const twiterButton = document.querySelector(".preview__button");
 const previewCard = document.querySelector(".js_preview_card");
 const shareContain = document.querySelector(".js-containerShare");
 const errorMsg = document.querySelector(".js-error");
+const whatsappPreviewBtn = document.querySelector(".js-telefono");
+const emailPreviewBtn = document.querySelector(".js-mail");
+const linkedinPreviewBtn = document.querySelector(".js-linkedin");
+const gitPreviewBtn = document.querySelector(".js-git");
 
 function handlerCreateCard(ev) {
   ev.preventDefault();
@@ -38,6 +42,10 @@ function handlerCreateCard(ev) {
         previewUrl.innerHTML = data.cardURL;
         previewUrl.href = data.cardURL;
         twiterButton.href = `https://twitter.com/?lang=es= + ${data.cardURL}`;
+        whatsappPreviewBtn.href = `https://api.whatsapp.com/send?phone= + ${data.phone}`;
+        emailPreviewBtn.href = `mailto: + ${data.email}`;
+        linkedinPreviewBtn.href = `https://www.linkedin.com/in/ + ${data.linkedin}`;
+        gitPreviewBtn.href = `https://github.com/ + ${data.github}`;
         createButton.setAttribute("disabled", "disabled");
         saveLocalStorage();
         handleTwitterButtonShare()
