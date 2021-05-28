@@ -98,6 +98,7 @@
   text-transform: uppercase;
   border-radius: 21px;
   line-height: 2.5;
+  animation: 4s intro infinite alternate;
   @media all and (min-width: 768px) {
     margin-top: 90px;
   }
@@ -106,4 +107,15 @@
   font-family: $font-main;
   text-decoration: none;
   color: $color-white;
+}
+
+@keyframes intro {
+  from {
+    opacity: 0.8;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

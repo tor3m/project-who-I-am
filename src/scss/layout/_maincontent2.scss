@@ -387,6 +387,7 @@ fieldset {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 13px 18px 13px 17px;
+  animation: 4s intro2 infinite alternate;
 }
 
 .error {
@@ -448,4 +449,14 @@ fieldset {
 }
 .preview__card {
   display: none;
+}
+
+@keyframes intro2 {
+  from {
+    opacity: 0.5;
+    transform: matrix3d();
+  }
+  to {
+    opacity: 1;
+  }
 }
