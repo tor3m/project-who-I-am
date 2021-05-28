@@ -2,7 +2,7 @@
 Proyecto grupal realizado durante el bootcamp de Adalab
 Promo Mileva.  Mayo 2021
 
-El proyecto consiste en la realizaciḉon de una web interactiva que permite la realización  de tarjetas de visita online.
+El proyecto consiste en la realización de una web interactiva que permite la realización  de tarjetas de visita online.
 El mundo ha cambiado, y la tecnología es algo inherente en las relaciones sociales, y también laborales
 A través de esta  aplicación, el usuario puede diseñar una tarjeta de visita funcionall para mostrar su experiencia laboral, y los datos necesarios para ampliar sured contactos.
 
