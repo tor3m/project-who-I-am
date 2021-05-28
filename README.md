@@ -13,7 +13,7 @@ Si quieres ver el resultado final , puedes acceder desde aquí:
 
 http://beta.adalab.es/project-promo-m-module-2-team-8/
 
-1.Clonar el repositorio (https://github.com/Adalab/modulo-1-evaluacion-final-paulaavn.git)
+1.Clonar el repositorio https://github.com/Adalab/project-promo-m-module-2-team-8.git
 
 #### Clonar proyecto
 
