@@ -3,7 +3,7 @@
 const createButton = document.querySelector(".js_share_card_button");
 const previewUrl = document.querySelector(".preview__url");
 const previewSection = document.querySelector("preview");
-const twiterButton = document.querySelector(".preview__twitter");
+const twiterButton = document.querySelector(".preview__button");
 const previewCard = document.querySelector(".js_preview_card");
 const shareContain = document.querySelector(".js-containerShare");
 const errorMsg = document.querySelector(".js-error");
@@ -37,9 +37,10 @@ function handlerCreateCard(ev) {
         shareContain.classList.add("preview__card");
         previewUrl.innerHTML = data.cardURL;
         previewUrl.href = data.cardURL;
-        twiterButton.href = `https://twitter.com/intent/tweet?text=&url=${data.cardURL};`;
+        twiterButton.href = `https://twitter.com/?lang=es= + ${data.cardURL}`;
         createButton.setAttribute("disabled", "disabled");
         saveLocalStorage();
+        handleTwitterButtonShare()
       } else {
         console.log('esta mal')
       }
