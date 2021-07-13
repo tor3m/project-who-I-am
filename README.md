@@ -68,7 +68,7 @@ npm start
 Este comando abre una ventana de Chrome y muestra tu página web\*\*, al igual que hace el plugin de VS Code Live Server (Go live).
 
 Por último...........
-Si tienes cualquier sugerencis, no dudes en hacer PR!! toda posibilidad de mejora es bienvenida!!:)
+Si tienes cualquier sugerencia, no dudes en hacer PR!! toda posibilidad de mejora es bienvenida!!:)
 
 Componentes
 Paula Albo
