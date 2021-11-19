@@ -1,77 +1,59 @@
-Proyecto grupal realizado durante el bootcamp de Adalab
-Promo Mileva. Mayo 2021
+👋 Hi there!
 
-El proyecto consiste en la realización de una web interactiva que permite la realización de tarjetas de visita online.
-El mundo ha cambiado, y la tecnología es algo inherente en las relaciones sociales, y también laborales
-A través de esta aplicación, el usuario puede diseñar una tarjeta de visita funcionall para mostrar su experiencia laboral, y los datos necesarios para ampliar sured contactos.
+![WhoIam](https://user-images.githubusercontent.com/81690198/142515831-f2110e9b-d2b0-4d4a-b93f-8100e2cd4f2e.png)
 
-Para la realización de este proyecto se ha utilizado -el Adalab Web starter kit](https://github.com/Adalab/Adalab-web-starter-kit), creado por la asociación Adalab. (creado con node y gulp) ¿Y qué es un Starter kit? Pues es una plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas.
 
-## Resultado
+##  "WHO I AM" TEAM PROJECT 
+The project consists of the realization of an interactive website that allows the creation of online business cards.
+The world has changed, and technology is something inherent in social relationships, and also in work
+Through this application, the user can design a functional business card to show his work experience, and the necessary data to expand his network of contacts.
 
-Si quieres ver el resultado final , puedes acceder desde aquí:
+## 💻 Technologies
+ ``VS Code``
+ ``HTML``
+ ``SASS``
+ ``Javascript``
+
+
+## 🛠️ Installation Steps 
+
+This project uses [Adalab Stater Kit](https://github.com/Adalab/adalab-web-starter-kit) (template), [Gulp](https://gulpjs.com/), [Node](https://nodejs.org/es/)  and [npm](https://www.npmjs.com/) . Go check them out if you don't have them locally installed.
+
+How to run a project? 
+
+  1.	The repository
+      `git clone https://github.com/tor3m/project-who-I-am.git`
+  2.	Install dependencies
+    `npm install`
+  3.	Run the app
+     `npm start`
+
+🌟 You are all set!
+
+## 🚀 Demo 
 
 http://beta.adalab.es/project-promo-m-module-2-team-8/
 
-1.Clonar el repositorio https://github.com/Adalab/project-promo-m-module-2-team-8.git
+## 👍 Feedback
+Any questions or suggestions? Please feel free to contact me at torres.m3lly@gmail.com 
 
-#### Clonar proyecto
+## 🍰 Contributing
+Please contribute using [GitHub](https://docs.github.com/en/get-started/quickstart/github-flow) Flow. Create a branch, add commits, and open a pull request.
 
-### Pasos a seguir
 
-1. Clona este repositorio
-2. **Instala las dependencias** locales ejecutando en la terminal el comando:
+## 🦸 Autors
 
-````bash
-npm install
+* Maribel Torres
+* Paula Albo
+* Marina Benítez
+* Lucía Cano
 
-3. **Abre una terminal** en la carpeta raíz de tu repositorio.
-4. **Instala las dependencias** locales ejecutando en la terminal el comando:
 
-```bash
-npm install
+## 🤝Acknowledgements 
 
-5. Por último, ejecuta el siguiente comando para  la visualización:
+Many thanks to the Adalab team 💞
 
-```bash
-npm start
-````
+## 📝License 
 
-Este comando abre una ventana de Chrome y muestra tu página web\*\*, al igual que hace el plugin de VS Code Live Server (Go live).
+MIT
 
-Por último...........Proyecto
-También tienes la opción de clonar el repositorio para mirar el código desde tu editor
-
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
-
-### Pasos a seguir
-
-1. Clona este repositorio
-2. **Instala las dependencias** locales ejecutando en la terminal el comando:
-
-````bash
-npm install
-
-3. **Abre una terminal** en la carpeta raíz de tu repositorio.
-4. **Instala las dependencias** locales ejecutando en la terminal el comando:
-
-```bash
-npm install
-````
-
-5. Por último, ejecuta el siguiente comando para la visualización:
-
-```bash
-npm start
-```
-
-Este comando abre una ventana de Chrome y muestra tu página web\*\*, al igual que hace el plugin de VS Code Live Server (Go live).
-
-Por último...........
-Si tienes cualquier sugerencia, no dudes en hacer PR!! toda posibilidad de mejora es bienvenida!!:)
-
-Componentes
-Paula Albo
-Marina Benítez
-Lucía Cano
-Maribel Torres
